@@ -3,10 +3,10 @@
 #include "stdio.h"
 
 int main () {
-    enum dni{
+    typedef enum {
         ni, po = 5, wt, sr, cz, pi, so
-    };
-    enum dni dzien_tygodnia;
+    } dni;
+    dni dzien_tygodnia;
     bool czy_byl_obecny = false;
 
     dzien_tygodnia = so;
